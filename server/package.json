@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf dist && tsc",
     "dev": "cross-env NODE_ENV=development concurrently \"tsc --watch\" \"nodemon -q -r source-map-support/register dist/app.js\"",
-    "start": "cross-env NODE_ENV=production node dist/app.js"
+    "start": "npm run build && cross-env NODE_ENV=production node dist/app.js"
   },
   "author": "",
   "license": "ISC",
