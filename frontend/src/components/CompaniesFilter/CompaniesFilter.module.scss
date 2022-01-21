@@ -1,0 +1,17 @@
+.root {
+  .searchInput {
+    padding: 16px 0px;
+  }
+
+  .specialities {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    .chip {
+      margin: 0 5px;
+      &:first-child {
+        margin-left: 0;   
+      }
+    }
+  }
+}

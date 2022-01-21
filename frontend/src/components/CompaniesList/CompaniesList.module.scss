@@ -1,0 +1,21 @@
+.root {
+  width: 1000px;
+  min-width: 400px;
+  background-color: white;
+  min-height: 704px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 7px 19px 4px rgba(97, 97, 97, 0.75);
+  -webkit-box-shadow: 0px 7px 19px 4px rgba(97, 97, 97, 0.75);
+  -moz-box-shadow: 0px 7px 19px 4px rgba(97, 97, 97, 0.75);
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .companiesContainer {
+    padding-top: 5px;
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+}

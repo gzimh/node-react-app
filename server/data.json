@@ -1,0 +1,41 @@
+[
+    {
+      "id": 1,
+      "name": "Company One",
+      "logo": "http://placekitten.com/420/300",
+      "specialities": [
+        "Excavation",
+        "Plumbing"
+      ],
+      "city": "Berlin"
+    },
+    {
+      "id": 2,
+      "name": "Company Two",
+      "logo": "http://placekitten.com/500/360",
+      "specialities": [
+        "Electrical",
+        "Technical devices"
+      ],
+      "city": "Stuttgart"
+    },
+    {
+      "id": 3,
+      "name": "Company Three",
+      "logo": "http://placekitten.com/600/400",
+      "specialities": [
+        "Gardening",
+        "Decoration"
+      ],
+      "city": "Frankfurt"
+    },
+    {
+      "id": 4,
+      "name": "Company Four",
+      "logo": "http://placekitten.com/600/500",
+      "specialities": [
+        "Gardening"
+      ],
+      "city": "Cologne"
+    }
+]

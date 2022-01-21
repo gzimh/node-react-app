@@ -1,0 +1,56 @@
+{
+  "name": "node-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "dev": "cross-env NODE_ENV=development concurrently \"tsc --watch\" \"nodemon -q -r source-map-support/register dist/app.js\"",
+    "start": "cross-env NODE_ENV=production node dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-proposal-export-default-from": "^7.14.5",
+    "@babel/preset-env": "^7.15.6",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.2",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^16.9.4",
+    "@types/source-map-support": "^0.5.4",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "concurrently": "^6.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "source-map-support": "^0.5.21",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/lodash": "^4.14.176",
+    "awesome-typescript-loader": "^5.2.1",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "source-map-loader": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.17.3"
+  }
+}
