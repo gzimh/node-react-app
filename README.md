@@ -1,5 +1,5 @@
-frontend: React app (create-react-app)
-backend: Node app (express, typescript)
+- frontend: React app (create-react-app)
+- backend: Node app (express, typescript)
 
 NOTE: add a `.env` file under /frontend 
 
