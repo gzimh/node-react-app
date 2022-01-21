@@ -14,8 +14,8 @@ app.use(morgan('tiny'))
 app.use('/system', systemRoutes)
 app.use('/companies', companies)
 
-app.listen(3001, () => {
-  console.log(`Server is running in port ${3001}`)
+app.listen(process.env.PORT, () => {
+  console.log(`Server is running in port ${process.env.PORT}`)
 })
 
 export default app
